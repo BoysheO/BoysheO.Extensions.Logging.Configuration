@@ -5,6 +5,9 @@
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <PackageProjectUrl>https://github.com/BoysheO/BoysheO.Extensions.Logging.Configuration</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
