@@ -3,10 +3,10 @@
 
 using System;
 using System.Collections.Generic;
-using BoysheO.Extensions.Logging.Configuration;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging.Configuration;
 
-namespace Microsoft.Extensions.Logging.Configuration
+namespace BoysheO.Extensions.Logging.Configuration
 {
     internal class LoggerProviderConfigurationFactory : ILoggerProviderConfigurationFactory
     {
