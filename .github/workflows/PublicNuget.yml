@@ -32,4 +32,4 @@ jobs:
     # 5. Push  package
     - name: Push generated package to GitHub registry
       run: |
-        .\nuget push .\BoysheO.Extensions.Logging.Configuration\BoysheO.Extensions.Logging.Configuration\bin\Release\*.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -ApiKey ${{ secrets.NUGET_API_KEY }} -NoSymbols
+        .\nuget push .\src\BoysheO.Extensions.Logging.Configuration\bin\Release\*.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -ApiKey ${{ secrets.NUGET_API_KEY }} -NoSymbols
